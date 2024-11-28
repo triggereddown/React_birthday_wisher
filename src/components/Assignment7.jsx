@@ -34,15 +34,15 @@ const Assignment7 = () => {
       </div>
         <div className="bottom flex justify-center py-7">
             <div className="inputs">
-                <input className="p-2 bg-slate-400 rounded-md" 
+                <input className="p-2 bg-slate-400 rounded-md placeholder:text-black" 
                 type="text"
                 name="name" 
                 value={field.name}
-                placeholder='Enter Full Name' 
+                placeholder ='Enter Full Name' 
                 onChange={handleChange}
                 />
                 
-                <input className="mx-2 p-2 bg-slate-400 rounded-md"
+                <input className="mx-2 p-2 bg-slate-400 rounded-md placeholder:text-black"
                 type="text"
                 name="age"
                 value={field.age}
